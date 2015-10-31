@@ -9,8 +9,6 @@ An Ace Edit Mode for [QML](https://en.wikipedia.org/wiki/QML)
 ```html
 <!-- ... -->
 <script src="ace.js"></script>
-<script src="ext-language_tools.js"></script>
-<!-- ... -->
 <!-- Add this line: -->
 <script src="mode-qml.js"></script>
 <!-- ... -->
@@ -19,9 +17,8 @@ An Ace Edit Mode for [QML](https://en.wikipedia.org/wiki/QML)
 2. Initialize the Edit Mode:
 
 ```js
-MODE_PATH = "ace/mode/qml"
-mode = new ace.require(MODE_PATH).Mode
-session = new ace.EditSession("your content", MODE_PATH)
+var editor = ace.edit("editor");
+editor.getSession().setMode("ace/mode/qml");
 ```
 
 That's it! Enjoy syntax highlighting for QML :)
