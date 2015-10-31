@@ -4,7 +4,7 @@ An Ace Edit Mode for [QML](https://en.wikipedia.org/wiki/QML)
 
 ## Usage
 
-1. Load `ace-mode-qml.js` after Ace, like so:
+### Load `ace-mode-qml.js` after Ace, like so:
 
 ```html
 <!-- ... -->
@@ -14,11 +14,11 @@ An Ace Edit Mode for [QML](https://en.wikipedia.org/wiki/QML)
 <!-- ... -->
 ```
 
-2. Initialize the Edit Mode:
+### Initialize the Edit Mode:
 
 ```js
 var editor = ace.edit("editor");
 editor.getSession().setMode("ace/mode/qml");
 ```
 
-That's it! Enjoy syntax highlighting for QML :)
+### That's it! Enjoy syntax highlighting for QML :smiley:
