@@ -1,0 +1,15 @@
+{
+  "name": "ace-mode-qml-demo",
+  "homepage": "https://github.com/Parnswir/ace-mode-qml",
+  "authors": [
+    "Parnswir <maximiliangrundke@googlemail.com>"
+  ],
+  "description": "Demo for ace-mode-qml",
+  "moduleType": [],
+  "keywords": [],
+  "license": "../LICENSE",
+  "dependencies": {
+    "ace-builds": "~1.2.2"
+  },
+  "private": true
+}
